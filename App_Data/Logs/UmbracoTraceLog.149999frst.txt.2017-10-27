@@ -1,0 +1,362 @@
+﻿ 2017-10-27 08:35:09,441 [P18544/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.3 application starting on 149999FRST
+ 2017-10-27 08:35:09,471 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-10-27 08:35:09,491 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 20ms)
+ 2017-10-27 08:35:09,517 [P18544/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-10-27 08:35:09,518 [P18544/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-10-27 08:35:09,520 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:10,324 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 803ms)
+ 2017-10-27 08:35:10,324 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-10-27 08:35:10,325 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-10-27 08:35:10,393 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:10,394 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:10,394 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-10-27 08:35:10,395 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-10-27 08:35:10,395 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:10,396 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:10,396 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-10-27 08:35:10,397 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2017-10-27 08:35:10,411 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:10,412 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:10,412 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-10-27 08:35:10,413 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-10-27 08:35:10,413 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:10,413 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:10,414 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-10-27 08:35:10,414 [P18544/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2017-10-27 08:35:13,727 [P18544/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-27 08:35:13,879 [P18544/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-10-27 08:35:14,464 [P18544/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-10-27 08:35:14,465 [P18544/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-10-27 08:35:14,497 [P18544/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5167ms)
+ 2017-10-27 08:35:16,980 [P18544/D2/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-10-27 08:35:18,591 [P18544/D2/T13] INFO  UCommerce.Installer.RuntimeVersionChecker - Version number reported from database: '7.8.1.17290'
+ 2017-10-27 08:35:18,592 [P18544/D2/T13] INFO  UCommerce.Umbraco7.Installer.Installer - Updating uCommerce was not needed. Current version: 7.8.1.17290. Determining took: 8 ms.
+ 2017-10-27 08:35:22,703 [P18544/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:22,703 [P18544/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:22,703 [P18544/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-10-27 08:35:22,703 [P18544/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-10-27 08:35:22,922 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:22,923 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:22,923 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-10-27 08:35:22,924 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2017-10-27 08:35:23,069 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:23,069 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:23,069 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-10-27 08:35:23,070 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2017-10-27 08:35:33,029 [P18544/D2/T13] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 08:35:33,032 [P18544/D2/T13] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-10-27 08:35:33,464 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:33,464 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:33,464 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-10-27 08:35:33,466 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 1ms)
+ 2017-10-27 08:35:33,497 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:33,498 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:33,498 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-10-27 08:35:33,498 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-10-27 08:35:33,503 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:33,503 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:33,503 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-10-27 08:35:33,504 [P18544/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2017-10-27 08:35:33,504 [P18544/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:33,505 [P18544/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:33,505 [P18544/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-10-27 08:35:33,505 [P18544/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2017-10-27 08:35:33,658 [P18544/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:35:33,659 [P18544/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:35:33,659 [P18544/D2/T13] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-10-27 08:35:33,659 [P18544/D2/T13] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2017-10-27 08:35:59,133 [P18544/D2/T12] INFO  umbraco.content - Load Xml from file...
+ 2017-10-27 08:35:59,169 [P18544/D2/T12] INFO  umbraco.content - Loaded Xml from file.
+ 2017-10-27 08:35:59,356 [P18544/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-10-27 08:36:22,911 [P18544/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-26 08:36:22
+ 2017-10-27 08:36:41,688 [P18544/D2/T17] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:36:41,688 [P18544/D2/T17] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:36:41,689 [P18544/D2/T17] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2017-10-27 08:36:41,689 [P18544/D2/T17] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 0ms)
+ 2017-10-27 08:37:27,015 [P18544/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 08:37:27,015 [P18544/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 08:37:27,015 [P18544/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-10-27 08:37:27,015 [P18544/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2017-10-27 08:55:07,970 [P18544/D2/T22] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-10-27 12:36:22,963 [P18544/D2/T20] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-26 12:36:22
+ 2017-10-27 12:53:55,281 [P18544/D2/T28] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 12:53:55,282 [P18544/D2/T28] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-10-27 12:56:13,405 [P18544/D2/T22] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-10-27 12:56:13,406 [P18544/D2/T22] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-10-27 12:56:13,406 [P18544/D2/T22] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-10-27 12:56:13,413 [P18544/D2/T22] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 7ms)
+ 2017-10-27 12:56:41,714 [P18544/D2/T32] INFO  UCommerce.Search.RavenDB.RavenDbStoreProvider - Starting creation of RavenDb document store...
+ 2017-10-27 12:56:42,077 [P18544/D2/T32] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-10-27 12:56:53,177 [P18544/D2/T32] ERROR Rhino.Licensing.AbstractLicenseValidator - Could not re-lease subscription license
+ 2017-10-27 12:56:57,615 [P18544/D2/T32] INFO  UCommerce.Search.RavenDB.RavenDbStoreProvider - RavenDb document store Initialized.
+ 2017-10-27 13:13:28,991 [P18544/D2/T10] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-10-27 13:22:15,627 [P18544/D2/T31] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 13:22:15,627 [P18544/D2/T31] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-10-27 13:23:00,807 [P18544/D2/T30] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-10-27 13:23:00,933 [P18544/D2/T30] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 11 categories. Loading from SQL took 29 ms. Mapping to document took 21 ms. Publish to raven took: 64 ms. total: 114 ms.
+ 2017-10-27 13:23:00,933 [P18544/D2/T30] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-10-27 13:23:42,612 [P18544/D2/T29] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-10-27 13:23:42,624 [P18544/D2/T29] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 12 categories. Loading from SQL took 5 ms. Mapping to document took 1 ms. Publish to raven took: 4 ms. total: 10 ms.
+ 2017-10-27 13:23:42,624 [P18544/D2/T29] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-10-27 13:24:05,807 [P18544/D2/T29] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-10-27 13:24:06,077 [P18544/D2/T29] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-10-27 13:24:22,091 [P18544/D2/T16] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-10-27 13:24:22,111 [P18544/D2/T16] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-10-27 13:24:35,002 [P18544/D2/T26] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-10-27 13:24:35,014 [P18544/D2/T26] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-10-27 13:41:48,981 [P18544/D2/T20] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-10-27 13:44:43,354 [P18544/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 13:44:44,672 [P18544/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 13:44:44,672 [P18544/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-10-27 13:55:40,340 [P18544/D2/T20] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The remote name could not be resolved: 'umbraco.tv'
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2017-10-27 13:56:19,226 [P18544/D2/T22] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-10-27 13:56:19,226 [P18544/D2/T22] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-10-27 13:56:31,499 [P18544/D2/T27] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-10-27 13:56:31,501 [P18544/D2/T27] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-10-27 13:56:32,515 [P18544/D2/T21] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-10-27 13:56:32,515 [P18544/D2/T21] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-10-27 13:56:33,627 [P18544/D2/T25] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-10-27 13:56:33,628 [P18544/D2/T25] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-10-27 13:56:33,633 [P18544/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2017-10-27 13:56:33,675 [P18544/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-10-27 13:56:33,676 [P18544/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-10-27 13:56:42,055 [P18544/D2/T29] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-10-27 13:56:54,066 [P18544/D2/T29] ERROR Rhino.Licensing.AbstractLicenseValidator - Could not re-lease subscription license
+ 2017-10-27 13:59:26,989 [P18544/D2/T23] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]] - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2017-10-27 13:59:26,992 [P18544/D2/T23] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]] - The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2017-10-27 13:59:26,994 [P18544/D2/T23] ERROR System.Object - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-10-27 13:59:26,997 [P18544/D2/T23] ERROR System.Object - The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-10-27 13:59:35,498 [P18544/D2/T27] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]] - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2017-10-27 13:59:35,498 [P18544/D2/T27] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]] - The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2017-10-27 13:59:35,499 [P18544/D2/T27] ERROR System.Object - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-10-27 13:59:35,499 [P18544/D2/T27] ERROR System.Object - The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-10-27 13:59:56,658 [P18544/D2/T27] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]] - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2017-10-27 13:59:56,658 [P18544/D2/T27] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]] - The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2017-10-27 13:59:56,659 [P18544/D2/T27] ERROR System.Object - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-10-27 13:59:56,659 [P18544/D2/T27] ERROR System.Object - The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-10-27 13:59:58,468 [P18544/D2/T32] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]] - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2017-10-27 13:59:58,468 [P18544/D2/T32] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]] - The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2017-10-27 13:59:58,469 [P18544/D2/T32] ERROR System.Object - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-10-27 13:59:58,469 [P18544/D2/T32] ERROR System.Object - The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-10-27 13:59:58,787 [P18544/D2/T30] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]] - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2017-10-27 13:59:58,788 [P18544/D2/T30] ERROR UCommerce.Pipelines.Pipeline`1[[UCommerce.Pipelines.IPipelineArgs`2[[UCommerce.Pipelines.AddToBasket.AddToBasketRequest, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null],[UCommerce.Pipelines.AddToBasket.AddToBasketResponse, UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]], UCommerce, Version=7.8.1.17290, Culture=neutral, PublicKeyToken=null]] - The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+ 2017-10-27 13:59:58,788 [P18544/D2/T30] ERROR System.Object - Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-10-27 13:59:58,788 [P18544/D2/T30] ERROR System.Object - The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+UCommerce.Pipelines.PipelineException: Exception occoured while processing pipeline 'UCommerce.Pipelines.Transactions.Baskets.AddToBasket.AddToBasketPipeline'. See inner exception for details. ---> System.ArgumentException: The product with SKU 'cpt-hat' contains variants, and cannot be added the basket. Add a specific variant instead.
+   at UCommerce.Pipelines.Transactions.Baskets.AddToBasket.ValidateIsSellableProductTask.Execute(IPipelineArgs`2 subject)
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   --- End of inner exception stack trace ---
+   at UCommerce.Pipelines.Pipeline`1.Execute(T subject)
+   at UCommerce.Transactions.TransactionLibraryInternal.AddToBasket(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.TransactionLibraryInternalProxy.AddToBasket_callback(Int32 quantity, String sku, String variantSku, Nullable`1 unitPrice, PriceGroup priceGroup, Boolean addToExistingLine, Boolean executeBasketPipeline, IDictionary`2 properties)
+   at Castle.Proxies.Invocations.TransactionLibraryInternal_AddToBasket.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-10-27 14:01:23,210 [P18544/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-10-27 14:01:23,239 [P18544/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-10-27 14:01:33,154 [P18544/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-10-27 14:01:33,177 [P18544/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-10-27 14:01:41,230 [P18544/D2/T21] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-10-27 14:01:41,246 [P18544/D2/T21] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-10-27 14:30:20,980 [P18544/D2/T20] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-10-27 14:30:26,979 [P18544/D2/T25] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-10-27 14:43:23,217 [P18544/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 14:43:23,218 [P18544/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-10-27 14:51:14,444 [P18544/D2/T33] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UCommerce.RazorStore.Controllers.ProductController.RenderView(Boolean addedToBasket)
+   at UCommerce.RazorStore.Controllers.ProductController.Index(RenderModel model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-10-27 14:56:42,056 [P18544/D2/T19] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-10-27 14:56:42,059 [P18544/D2/T19] ERROR Rhino.Licensing.AbstractLicenseValidator - Could not re-lease subscription license
+ 2017-10-27 15:02:54,966 [P18544/D2/T19] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-10-27 15:03:00,970 [P18544/D2/T26] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-10-27 15:04:10,797 [P18544/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 15:04:25,312 [P18544/D2/T10] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 15:04:33,446 [P18544/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 15:04:33,446 [P18544/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-10-27 15:04:53,117 [P18544/D2/T19] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-10-27 15:04:53,118 [P18544/D2/T19] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-10-27 15:06:27,921 [P18544/D2/T17] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The remote name could not be resolved: 'umbraco.tv'
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2017-10-27 15:24:07,966 [P18544/D2/T16] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-10-27 15:27:31,081 [P18544/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 15:27:31,082 [P18544/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-10-27 15:33:58,294 [P18544/D2/T10] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-10-27 15:33:58,295 [P18544/D2/T10] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-10-27 15:56:42,060 [P18544/D2/T29] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-10-27 15:56:42,076 [P18544/D2/T29] ERROR Rhino.Licensing.AbstractLicenseValidator - Could not re-lease subscription license
+ 2017-10-27 15:57:30,957 [P18544/D2/T28] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-10-27 15:59:53,611 [P18544/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 15:59:53,611 [P18544/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-10-27 16:19:25,957 [P18544/D2/T22] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-10-27 16:27:13,700 [P18544/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-10-27 16:27:13,700 [P18544/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-10-27 16:30:00,318 [P18544/D2/T21] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Search.ISearchableTree
+ 2017-10-27 16:30:00,359 [P18544/D2/T21] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Search.ISearchableTree (took 42ms)
+ 2017-10-27 16:30:04,521 [P18544/D2/T24] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2017-10-27 16:30:04,521 [P18544/D2/T24] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2017-10-27 16:36:22,929 [P18544/D2/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-26 16:36:22
