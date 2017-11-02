@@ -1,0 +1,998 @@
+﻿ 2017-11-01 08:49:48,007 [P14996/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.3 application starting on 149999FRST
+ 2017-11-01 08:49:48,147 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-01 08:49:48,209 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 62ms)
+ 2017-11-01 08:49:48,307 [P14996/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-11-01 08:49:48,309 [P14996/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-11-01 08:49:48,311 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:49:49,184 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 872ms)
+ 2017-11-01 08:49:49,186 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-01 08:49:49,188 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2017-11-01 08:49:49,267 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:49:49,268 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:49:49,268 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-01 08:49:49,268 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2017-11-01 08:49:49,269 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:49:49,270 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:49:49,270 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-01 08:49:49,272 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2017-11-01 08:49:49,306 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:49:49,307 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:49:49,307 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-11-01 08:49:49,307 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2017-11-01 08:49:49,308 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:49:49,308 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:49:49,308 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-01 08:49:49,309 [P14996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2017-11-01 08:49:51,973 [P14996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-01 08:49:52,621 [P14996/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-01 08:49:54,204 [P14996/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-01 08:49:54,206 [P14996/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-01 08:49:54,242 [P14996/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6404ms)
+ 2017-11-01 08:49:57,630 [P14996/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-11-01 08:50:00,061 [P14996/D2/T10] INFO  UCommerce.Installer.RuntimeVersionChecker - Version number reported from database: '7.8.1.17290'
+ 2017-11-01 08:50:00,061 [P14996/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - Updating uCommerce was not needed. Current version: 7.8.1.17290. Determining took: 225 ms.
+ 2017-11-01 08:50:00,907 [P14996/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2017-11-01 08:50:00,924 [P14996/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-01 08:50:02,187 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:50:02,187 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:50:02,187 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-01 08:50:02,188 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2017-11-01 08:50:03,781 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:50:03,782 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:50:03,782 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-01 08:50:03,783 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2017-11-01 08:50:04,164 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:50:04,164 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:50:04,165 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-11-01 08:50:04,165 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 0ms)
+ 2017-11-01 08:50:21,651 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:50:21,651 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:50:21,651 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-11-01 08:50:21,651 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-11-01 08:50:21,874 [P14996/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:50:21,875 [P14996/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:50:21,875 [P14996/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-11-01 08:50:21,885 [P14996/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 10ms)
+ 2017-11-01 08:50:30,414 [P14996/D2/T10] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username demostore@ucommerce.se from IP address ::1
+ 2017-11-01 08:50:44,110 [P14996/D2/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-11-01 08:50:44,110 [P14996/D2/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-11-01 08:50:45,578 [P14996/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:50:45,579 [P14996/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:50:45,579 [P14996/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-11-01 08:50:45,580 [P14996/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2017-11-01 08:50:45,713 [P14996/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:50:45,713 [P14996/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:50:45,714 [P14996/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-11-01 08:50:45,714 [P14996/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 0ms)
+ 2017-11-01 08:50:45,723 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:50:45,726 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 3ms)
+ 2017-11-01 08:50:45,729 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-11-01 08:50:45,729 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-11-01 08:50:45,733 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 08:50:45,734 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 08:50:45,734 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-11-01 08:50:45,734 [P14996/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2017-11-01 08:51:01,117 [P14996/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-31 08:51:00
+ 2017-11-01 09:10:15,602 [P14996/D2/T147] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-11-01 09:12:56,533 [P14996/D2/T151] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-11-01 09:12:56,534 [P14996/D2/T151] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-11-01 09:15:18,116 [P14996/D2/T161] INFO  UCommerce.Search.RavenDB.RavenDbStoreProvider - Starting creation of RavenDb document store...
+ 2017-11-01 09:15:18,541 [P14996/D2/T161] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-11-01 09:15:24,097 [P14996/D2/T161] INFO  UCommerce.Search.RavenDB.RavenDbStoreProvider - RavenDb document store Initialized.
+ 2017-11-01 09:18:39,947 [P14996/D2/T155] ERROR UCommerce.Pipelines.Common.SendEmailTask - Failure sending mail.
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UCommerce.Transactions.EmailService.SendEmailInternal(MailMessage message)
+   at UCommerce.Transactions.EmailService.Send(ILocalizationContext localizationContext, EmailProfile profile, String emailTypeName, MailAddress to, IDictionary`2 templateParameters)
+   at UCommerce.Pipelines.Common.SendEmailTask.Execute(PurchaseOrder purchaseOrder)
+ 2017-11-01 09:18:39,954 [P14996/D2/T155] ERROR UCommerce.Pipelines.Common.SendEmailTask - Unable to connect to the remote server
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UCommerce.Transactions.EmailService.SendEmailInternal(MailMessage message)
+   at UCommerce.Transactions.EmailService.Send(ILocalizationContext localizationContext, EmailProfile profile, String emailTypeName, MailAddress to, IDictionary`2 templateParameters)
+   at UCommerce.Pipelines.Common.SendEmailTask.Execute(PurchaseOrder purchaseOrder)
+ 2017-11-01 09:18:39,954 [P14996/D2/T155] ERROR UCommerce.Pipelines.Common.SendEmailTask - No connection could be made because the target machine actively refused it 127.0.0.1:25
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UCommerce.Transactions.EmailService.SendEmailInternal(MailMessage message)
+   at UCommerce.Transactions.EmailService.Send(ILocalizationContext localizationContext, EmailProfile profile, String emailTypeName, MailAddress to, IDictionary`2 templateParameters)
+   at UCommerce.Pipelines.Common.SendEmailTask.Execute(PurchaseOrder purchaseOrder)
+ 2017-11-01 09:36:36,507 [P14996/D2/T136] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:36:37,029 [P14996/D2/T136] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 303 ms. Mapping to document took 16 ms. Publish to raven took: 89 ms. total: 408 ms.
+ 2017-11-01 09:36:37,029 [P14996/D2/T136] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:29,401 [P14996/D2/T118] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:29,662 [P14996/D2/T160] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:29,837 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:29,936 [P14996/D2/T118] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 493 ms. Mapping to document took 1 ms. Publish to raven took: 6 ms. total: 500 ms.
+ 2017-11-01 09:44:29,936 [P14996/D2/T118] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:29,980 [P14996/D2/T121] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:30,133 [P14996/D2/T140] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:30,683 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:30,890 [P14996/D2/T160] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:31,107 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:31,263 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:31,395 [P14996/D2/T10] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:31,488 [P14996/D2/T140] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:31,561 [P14996/D2/T18] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:31,563 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:31,683 [P14996/D2/T137] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:31,797 [P14996/D2/T118] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:31,892 [P14996/D2/T11] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:31,975 [P14996/D2/T140] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:32,030 [P14996/D2/T121] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:32,072 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:32,096 [P14996/D2/T10] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:32,126 [P14996/D2/T121] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:32,168 [P14996/D2/T133] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:32,212 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:32,258 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:32,367 [P14996/D2/T18] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:32,373 [P14996/D2/T128] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:32,599 [P14996/D2/T137] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:32,600 [P14996/D2/T137] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:32,654 [P14996/D2/T119] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:44:32,960 [P14996/D2/T121] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:33,105 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:33,204 [P14996/D2/T140] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:33,207 [P14996/D2/T118] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:33,258 [P14996/D2/T133] ERROR UCommerce.Infrastructure.Threading.RetryableAction - Exception thrown by retryable action. Iteration number: 1
+System.AggregateException: One or more errors occurred. ---> Raven.Abstractions.Exceptions.ConcurrencyException: Concurrent modification to the same document are not allowed ---> Microsoft.Isam.Esent.Interop.EsentWriteConflictException: Write lock failed due to outstanding write lock
+   at Microsoft.Isam.Esent.Interop.Api.Check(Int32 err)
+   at Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Microsoft.Isam.Esent.Interop.Update..ctor(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Raven.Storage.Esent.StorageActions.DocumentStorageActions.InsertDocument(String key, RavenJObject data, RavenJObject metadata, Boolean checkForUpdates)
+   at Raven.Database.DocumentDatabase.<>c__DisplayClass131.<BulkInsert>b__12e(IStorageActionsAccessor accessor)
+   at Raven.Storage.Esent.TransactionalStorage.ExecuteBatch(Action`1 action, EsentTransactionContext transactionContext)
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   --- End of inner exception stack trace ---
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   at Raven.Database.DocumentDatabase.BulkInsert(BulkInsertOptions options, IEnumerable`1 docBatches, Guid operationId)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.<>c__DisplayClass3.<.ctor>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.Dispose()
+   at Raven.Client.Document.BulkInsertOperation.Dispose()
+   at UCommerce.Search.RavenDB.RavenDbRepository.SaveMany[T](IEnumerable`1 documents)
+   at UCommerce.Search.Indexers.RavenRangeFacetIndexer.Index(IEnumerable`1 subjects)
+   at UCommerce.Search.Indexers.RavenRangeFacetIndexer.Index(RangeFacet subjects)
+   at UCommerce.Search.Indexers.ProductIndexers.ProductPriceRangeFacetIndexer.Index(Product subjects)
+   at UCommerce.Pipelines.Search.SearchIndexerTask`1.<>c__DisplayClass1.<Execute>b__0(IIndexer`1 x)
+   at UCommerce.Extensions.CollectionExtensions.ForEach[T](IEnumerable`1 source, Action`1 action)
+   at UCommerce.Pipelines.Search.SearchIndexerTask`1.Execute(T subject)
+   at UCommerce.Pipelines.PipelineTaskAsync`1.<>c__DisplayClass1.<Execute>b__0()
+   at UCommerce.Infrastructure.Threading.RetryableAction.Run()
+---> (Inner Exception #0) Raven.Abstractions.Exceptions.ConcurrencyException: Concurrent modification to the same document are not allowed ---> Microsoft.Isam.Esent.Interop.EsentWriteConflictException: Write lock failed due to outstanding write lock
+   at Microsoft.Isam.Esent.Interop.Api.Check(Int32 err)
+   at Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Microsoft.Isam.Esent.Interop.Update..ctor(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Raven.Storage.Esent.StorageActions.DocumentStorageActions.InsertDocument(String key, RavenJObject data, RavenJObject metadata, Boolean checkForUpdates)
+   at Raven.Database.DocumentDatabase.<>c__DisplayClass131.<BulkInsert>b__12e(IStorageActionsAccessor accessor)
+   at Raven.Storage.Esent.TransactionalStorage.ExecuteBatch(Action`1 action, EsentTransactionContext transactionContext)
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   --- End of inner exception stack trace ---
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   at Raven.Database.DocumentDatabase.BulkInsert(BulkInsertOptions options, IEnumerable`1 docBatches, Guid operationId)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.<>c__DisplayClass3.<.ctor>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+
+ 2017-11-01 09:44:33,265 [P14996/D2/T133] ERROR UCommerce.Infrastructure.Threading.RetryableAction - One or more errors occurred.
+System.AggregateException: One or more errors occurred. ---> Raven.Abstractions.Exceptions.ConcurrencyException: Concurrent modification to the same document are not allowed ---> Microsoft.Isam.Esent.Interop.EsentWriteConflictException: Write lock failed due to outstanding write lock
+   at Microsoft.Isam.Esent.Interop.Api.Check(Int32 err)
+   at Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Microsoft.Isam.Esent.Interop.Update..ctor(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Raven.Storage.Esent.StorageActions.DocumentStorageActions.InsertDocument(String key, RavenJObject data, RavenJObject metadata, Boolean checkForUpdates)
+   at Raven.Database.DocumentDatabase.<>c__DisplayClass131.<BulkInsert>b__12e(IStorageActionsAccessor accessor)
+   at Raven.Storage.Esent.TransactionalStorage.ExecuteBatch(Action`1 action, EsentTransactionContext transactionContext)
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   --- End of inner exception stack trace ---
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   at Raven.Database.DocumentDatabase.BulkInsert(BulkInsertOptions options, IEnumerable`1 docBatches, Guid operationId)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.<>c__DisplayClass3.<.ctor>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.Dispose()
+   at Raven.Client.Document.BulkInsertOperation.Dispose()
+   at UCommerce.Search.RavenDB.RavenDbRepository.SaveMany[T](IEnumerable`1 documents)
+   at UCommerce.Search.Indexers.RavenRangeFacetIndexer.Index(IEnumerable`1 subjects)
+   at UCommerce.Search.Indexers.RavenRangeFacetIndexer.Index(RangeFacet subjects)
+   at UCommerce.Search.Indexers.ProductIndexers.ProductPriceRangeFacetIndexer.Index(Product subjects)
+   at UCommerce.Pipelines.Search.SearchIndexerTask`1.<>c__DisplayClass1.<Execute>b__0(IIndexer`1 x)
+   at UCommerce.Extensions.CollectionExtensions.ForEach[T](IEnumerable`1 source, Action`1 action)
+   at UCommerce.Pipelines.Search.SearchIndexerTask`1.Execute(T subject)
+   at UCommerce.Pipelines.PipelineTaskAsync`1.<>c__DisplayClass1.<Execute>b__0()
+   at UCommerce.Infrastructure.Threading.RetryableAction.Run()
+---> (Inner Exception #0) Raven.Abstractions.Exceptions.ConcurrencyException: Concurrent modification to the same document are not allowed ---> Microsoft.Isam.Esent.Interop.EsentWriteConflictException: Write lock failed due to outstanding write lock
+   at Microsoft.Isam.Esent.Interop.Api.Check(Int32 err)
+   at Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Microsoft.Isam.Esent.Interop.Update..ctor(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Raven.Storage.Esent.StorageActions.DocumentStorageActions.InsertDocument(String key, RavenJObject data, RavenJObject metadata, Boolean checkForUpdates)
+   at Raven.Database.DocumentDatabase.<>c__DisplayClass131.<BulkInsert>b__12e(IStorageActionsAccessor accessor)
+   at Raven.Storage.Esent.TransactionalStorage.ExecuteBatch(Action`1 action, EsentTransactionContext transactionContext)
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   --- End of inner exception stack trace ---
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   at Raven.Database.DocumentDatabase.BulkInsert(BulkInsertOptions options, IEnumerable`1 docBatches, Guid operationId)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.<>c__DisplayClass3.<.ctor>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+
+ 2017-11-01 09:44:33,266 [P14996/D2/T133] ERROR UCommerce.Infrastructure.Threading.RetryableAction - Concurrent modification to the same document are not allowed
+System.AggregateException: One or more errors occurred. ---> Raven.Abstractions.Exceptions.ConcurrencyException: Concurrent modification to the same document are not allowed ---> Microsoft.Isam.Esent.Interop.EsentWriteConflictException: Write lock failed due to outstanding write lock
+   at Microsoft.Isam.Esent.Interop.Api.Check(Int32 err)
+   at Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Microsoft.Isam.Esent.Interop.Update..ctor(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Raven.Storage.Esent.StorageActions.DocumentStorageActions.InsertDocument(String key, RavenJObject data, RavenJObject metadata, Boolean checkForUpdates)
+   at Raven.Database.DocumentDatabase.<>c__DisplayClass131.<BulkInsert>b__12e(IStorageActionsAccessor accessor)
+   at Raven.Storage.Esent.TransactionalStorage.ExecuteBatch(Action`1 action, EsentTransactionContext transactionContext)
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   --- End of inner exception stack trace ---
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   at Raven.Database.DocumentDatabase.BulkInsert(BulkInsertOptions options, IEnumerable`1 docBatches, Guid operationId)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.<>c__DisplayClass3.<.ctor>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.Dispose()
+   at Raven.Client.Document.BulkInsertOperation.Dispose()
+   at UCommerce.Search.RavenDB.RavenDbRepository.SaveMany[T](IEnumerable`1 documents)
+   at UCommerce.Search.Indexers.RavenRangeFacetIndexer.Index(IEnumerable`1 subjects)
+   at UCommerce.Search.Indexers.RavenRangeFacetIndexer.Index(RangeFacet subjects)
+   at UCommerce.Search.Indexers.ProductIndexers.ProductPriceRangeFacetIndexer.Index(Product subjects)
+   at UCommerce.Pipelines.Search.SearchIndexerTask`1.<>c__DisplayClass1.<Execute>b__0(IIndexer`1 x)
+   at UCommerce.Extensions.CollectionExtensions.ForEach[T](IEnumerable`1 source, Action`1 action)
+   at UCommerce.Pipelines.Search.SearchIndexerTask`1.Execute(T subject)
+   at UCommerce.Pipelines.PipelineTaskAsync`1.<>c__DisplayClass1.<Execute>b__0()
+   at UCommerce.Infrastructure.Threading.RetryableAction.Run()
+---> (Inner Exception #0) Raven.Abstractions.Exceptions.ConcurrencyException: Concurrent modification to the same document are not allowed ---> Microsoft.Isam.Esent.Interop.EsentWriteConflictException: Write lock failed due to outstanding write lock
+   at Microsoft.Isam.Esent.Interop.Api.Check(Int32 err)
+   at Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Microsoft.Isam.Esent.Interop.Update..ctor(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Raven.Storage.Esent.StorageActions.DocumentStorageActions.InsertDocument(String key, RavenJObject data, RavenJObject metadata, Boolean checkForUpdates)
+   at Raven.Database.DocumentDatabase.<>c__DisplayClass131.<BulkInsert>b__12e(IStorageActionsAccessor accessor)
+   at Raven.Storage.Esent.TransactionalStorage.ExecuteBatch(Action`1 action, EsentTransactionContext transactionContext)
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   --- End of inner exception stack trace ---
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   at Raven.Database.DocumentDatabase.BulkInsert(BulkInsertOptions options, IEnumerable`1 docBatches, Guid operationId)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.<>c__DisplayClass3.<.ctor>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+
+ 2017-11-01 09:44:33,266 [P14996/D2/T133] ERROR UCommerce.Infrastructure.Threading.RetryableAction - Write lock failed due to outstanding write lock
+System.AggregateException: One or more errors occurred. ---> Raven.Abstractions.Exceptions.ConcurrencyException: Concurrent modification to the same document are not allowed ---> Microsoft.Isam.Esent.Interop.EsentWriteConflictException: Write lock failed due to outstanding write lock
+   at Microsoft.Isam.Esent.Interop.Api.Check(Int32 err)
+   at Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Microsoft.Isam.Esent.Interop.Update..ctor(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Raven.Storage.Esent.StorageActions.DocumentStorageActions.InsertDocument(String key, RavenJObject data, RavenJObject metadata, Boolean checkForUpdates)
+   at Raven.Database.DocumentDatabase.<>c__DisplayClass131.<BulkInsert>b__12e(IStorageActionsAccessor accessor)
+   at Raven.Storage.Esent.TransactionalStorage.ExecuteBatch(Action`1 action, EsentTransactionContext transactionContext)
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   --- End of inner exception stack trace ---
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   at Raven.Database.DocumentDatabase.BulkInsert(BulkInsertOptions options, IEnumerable`1 docBatches, Guid operationId)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.<>c__DisplayClass3.<.ctor>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.Dispose()
+   at Raven.Client.Document.BulkInsertOperation.Dispose()
+   at UCommerce.Search.RavenDB.RavenDbRepository.SaveMany[T](IEnumerable`1 documents)
+   at UCommerce.Search.Indexers.RavenRangeFacetIndexer.Index(IEnumerable`1 subjects)
+   at UCommerce.Search.Indexers.RavenRangeFacetIndexer.Index(RangeFacet subjects)
+   at UCommerce.Search.Indexers.ProductIndexers.ProductPriceRangeFacetIndexer.Index(Product subjects)
+   at UCommerce.Pipelines.Search.SearchIndexerTask`1.<>c__DisplayClass1.<Execute>b__0(IIndexer`1 x)
+   at UCommerce.Extensions.CollectionExtensions.ForEach[T](IEnumerable`1 source, Action`1 action)
+   at UCommerce.Pipelines.Search.SearchIndexerTask`1.Execute(T subject)
+   at UCommerce.Pipelines.PipelineTaskAsync`1.<>c__DisplayClass1.<Execute>b__0()
+   at UCommerce.Infrastructure.Threading.RetryableAction.Run()
+---> (Inner Exception #0) Raven.Abstractions.Exceptions.ConcurrencyException: Concurrent modification to the same document are not allowed ---> Microsoft.Isam.Esent.Interop.EsentWriteConflictException: Write lock failed due to outstanding write lock
+   at Microsoft.Isam.Esent.Interop.Api.Check(Int32 err)
+   at Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Microsoft.Isam.Esent.Interop.Update..ctor(JET_SESID sesid, JET_TABLEID tableid, JET_prep prep)
+   at Raven.Storage.Esent.StorageActions.DocumentStorageActions.InsertDocument(String key, RavenJObject data, RavenJObject metadata, Boolean checkForUpdates)
+   at Raven.Database.DocumentDatabase.<>c__DisplayClass131.<BulkInsert>b__12e(IStorageActionsAccessor accessor)
+   at Raven.Storage.Esent.TransactionalStorage.ExecuteBatch(Action`1 action, EsentTransactionContext transactionContext)
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   --- End of inner exception stack trace ---
+   at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action)
+   at Raven.Database.DocumentDatabase.BulkInsert(BulkInsertOptions options, IEnumerable`1 docBatches, Guid operationId)
+   at Raven.Client.Embedded.EmbeddedBulkInsertOperation.<>c__DisplayClass3.<.ctor>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()<---
+
+ 2017-11-01 09:44:33,380 [P14996/D2/T119] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:33,438 [P14996/D2/T133] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 2
+ 2017-11-01 09:44:33,446 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:33,494 [P14996/D2/T137] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:33,527 [P14996/D2/T128] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:44:33,710 [P14996/D2/T11] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:47:16,328 [P14996/D2/T161] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:47:16,445 [P14996/D2/T161] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 76 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 83 ms.
+ 2017-11-01 09:47:16,446 [P14996/D2/T161] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:47:45,435 [P14996/D2/T12] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:47:45,606 [P14996/D2/T12] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 123 ms. Mapping to document took 0 ms. Publish to raven took: 5 ms. total: 128 ms.
+ 2017-11-01 09:47:45,606 [P14996/D2/T12] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:47:48,295 [P14996/D2/T137] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:47:48,405 [P14996/D2/T137] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 68 ms. Mapping to document took 1 ms. Publish to raven took: 9 ms. total: 78 ms.
+ 2017-11-01 09:47:48,406 [P14996/D2/T137] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:47:49,096 [P14996/D2/T132] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:47:49,204 [P14996/D2/T132] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 70 ms. Mapping to document took 0 ms. Publish to raven took: 5 ms. total: 75 ms.
+ 2017-11-01 09:47:49,204 [P14996/D2/T132] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:48:00,964 [P14996/D2/T132] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:48:01,558 [P14996/D2/T132] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 541 ms. Mapping to document took 0 ms. Publish to raven took: 5 ms. total: 546 ms.
+ 2017-11-01 09:48:01,558 [P14996/D2/T132] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:49:43,904 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:49:44,023 [P14996/D2/T13] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 77 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 84 ms.
+ 2017-11-01 09:49:44,024 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:49:52,915 [P14996/D2/T152] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:49:53,025 [P14996/D2/T152] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 70 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 76 ms.
+ 2017-11-01 09:49:53,025 [P14996/D2/T152] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:49:55,446 [P14996/D2/T132] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:49:55,884 [P14996/D2/T132] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 396 ms. Mapping to document took 1 ms. Publish to raven took: 6 ms. total: 403 ms.
+ 2017-11-01 09:49:55,885 [P14996/D2/T132] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:49:58,921 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:49:59,501 [P14996/D2/T13] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 241 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 247 ms.
+ 2017-11-01 09:49:59,502 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:51:57,098 [P14996/D2/T156] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:51:57,649 [P14996/D2/T156] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 194 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 201 ms.
+ 2017-11-01 09:51:57,650 [P14996/D2/T156] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 09:52:04,455 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 09:52:04,608 [P14996/D2/T13] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 113 ms. Mapping to document took 1 ms. Publish to raven took: 4 ms. total: 118 ms.
+ 2017-11-01 09:52:04,608 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 10:05:04,299 [P14996/D2/T125] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 10:05:04,562 [P14996/D2/T125] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 10:05:54,628 [P14996/D2/T155] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 10:05:54,731 [P14996/D2/T155] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 10:06:30,191 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 10:06:30,238 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 10:08:54,984 [P14996/D2/T146] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 10:08:55,509 [P14996/D2/T146] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 13 categories. Loading from SQL took 191 ms. Mapping to document took 1 ms. Publish to raven took: 5 ms. total: 197 ms.
+ 2017-11-01 10:08:55,509 [P14996/D2/T146] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 10:15:18,553 [P14996/D2/T20] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-11-01 10:31:41,550 [P14996/D2/T116] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:31:41,583 [P14996/D2/T116] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:31:52,476 [P14996/D2/T145] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:31:52,511 [P14996/D2/T145] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:36:47,433 [P14996/D2/T125] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:36:47,482 [P14996/D2/T125] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:36:58,555 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:36:58,600 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:38:32,594 [P14996/D2/T19] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:38:32,625 [P14996/D2/T19] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:38:42,281 [P14996/D2/T155] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:38:42,313 [P14996/D2/T155] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:39:18,137 [P14996/D2/T150] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:39:18,170 [P14996/D2/T150] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:41:33,940 [P14996/D2/T19] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:41:33,972 [P14996/D2/T19] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:42:57,310 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:42:57,354 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:44:00,413 [P14996/D2/T115] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:44:00,447 [P14996/D2/T115] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:44:09,123 [P14996/D2/T149] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:44:09,154 [P14996/D2/T149] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:44:39,696 [P14996/D2/T13] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:44:39,728 [P14996/D2/T13] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:44:46,836 [P14996/D2/T116] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:44:46,866 [P14996/D2/T116] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:45:25,102 [P14996/D2/T116] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:45:25,133 [P14996/D2/T116] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:45:33,064 [P14996/D2/T145] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:45:33,095 [P14996/D2/T145] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:46:03,066 [P14996/D2/T20] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:46:03,097 [P14996/D2/T20] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:46:12,425 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:46:12,468 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:51:35,742 [P14996/D2/T149] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:51:35,773 [P14996/D2/T149] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:51:44,387 [P14996/D2/T25] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:51:44,419 [P14996/D2/T25] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:53:05,583 [P14996/D2/T125] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:53:05,616 [P14996/D2/T125] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:53:13,986 [P14996/D2/T115] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:53:14,020 [P14996/D2/T115] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:53:54,760 [P14996/D2/T117] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:53:54,791 [P14996/D2/T117] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:54:03,302 [P14996/D2/T125] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:54:03,332 [P14996/D2/T125] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:54:48,176 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 10:54:48,288 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 10:55:45,695 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 10:55:45,779 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 10:58:32,101 [P14996/D2/T117] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:58:32,141 [P14996/D2/T117] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:58:45,905 [P14996/D2/T150] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:58:45,938 [P14996/D2/T150] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:59:44,914 [P14996/D2/T116] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:59:44,943 [P14996/D2/T116] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 10:59:51,398 [P14996/D2/T117] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 10:59:51,429 [P14996/D2/T117] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:06:26,134 [P14996/D2/T122] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 11:06:26,170 [P14996/D2/T122] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:06:36,448 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 11:06:36,483 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:07:48,791 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 11:07:48,822 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:07:54,877 [P14996/D2/T126] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 11:07:54,908 [P14996/D2/T126] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:09:13,812 [P14996/D2/T20] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 11:09:13,843 [P14996/D2/T20] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:09:19,398 [P14996/D2/T155] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 11:09:19,432 [P14996/D2/T155] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:11:08,738 [P14996/D2/T122] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 11:11:08,791 [P14996/D2/T122] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:11:16,596 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 11:11:16,629 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:12:01,641 [P14996/D2/T146] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 11:12:01,672 [P14996/D2/T146] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:12:23,349 [P14996/D2/T145] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-US'
+ 2017-11-01 11:12:23,380 [P14996/D2/T145] INFO  UCommerce.Search.Indexers.ProductDefinitionFieldIndexers.DefaultProductFacetIndexer - Removing facet 'ShowOnHomepage' for culture 'en-GB'
+ 2017-11-01 11:15:18,569 [P14996/D2/T122] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-11-01 11:18:49,012 [P14996/D2/T150] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 11:18:49,120 [P14996/D2/T150] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 14 categories. Loading from SQL took 70 ms. Mapping to document took 0 ms. Publish to raven took: 8 ms. total: 78 ms.
+ 2017-11-01 11:18:49,121 [P14996/D2/T150] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 11:37:57,460 [P14996/D2/T116] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-11-01 12:15:18,578 [P14996/D2/T8] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-11-01 12:45:20,080 [P14996/D2/T149] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-11-01 12:45:20,080 [P14996/D2/T149] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-11-01 12:47:10,999 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 12:47:11,470 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 12:48:16,039 [P14996/D2/T125] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 12:48:16,197 [P14996/D2/T125] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 12:49:22,966 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 12:49:23,012 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 12:50:06,883 [P14996/D2/T148] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 12:50:06,926 [P14996/D2/T148] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 12:50:36,521 [P14996/D2/T125] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-01 12:50:36,521 [P14996/D2/T125] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-01 12:50:36,521 [P14996/D2/T125] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-11-01 12:50:36,535 [P14996/D2/T125] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 13ms)
+ 2017-11-01 12:51:01,313 [P14996/D2/T115] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-31 12:51:01
+ 2017-11-01 12:53:47,141 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 12:53:47,282 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 12:59:52,867 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 12:59:53,641 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:01:04,710 [P14996/D2/T117] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:01:04,846 [P14996/D2/T117] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:01:09,311 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:01:09,357 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:05:47,143 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:05:47,215 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:15:18,591 [P14996/D2/T116] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-11-01 13:18:48,947 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:18:49,417 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:21:27,801 [P14996/D2/T125] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:21:27,937 [P14996/D2/T125] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:27:53,928 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:27:54,122 [P14996/D2/T115] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 15 categories. Loading from SQL took 137 ms. Mapping to document took 0 ms. Publish to raven took: 24 ms. total: 161 ms.
+ 2017-11-01 13:27:54,123 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:28:38,335 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:28:38,782 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:32:28,052 [P14996/D2/T150] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:32:28,192 [P14996/D2/T150] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:35:08,071 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:35:08,597 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:38:16,321 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:38:16,473 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:39:00,663 [P14996/D2/T150] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:39:01,744 [P14996/D2/T150] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:41:21,078 [P14996/D2/T116] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (785570ee).
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParserStateObject.TryPeekByte(Byte& value)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__115`1.MoveNext()
+ 2017-11-01 13:41:23,767 [P14996/D2/T8] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:41:27,893 [P14996/D2/T8] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:43:06,917 [P14996/D2/T150] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Exception (bfb876c6).
+System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteDbDataReader(CommandBehavior behavior) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 235
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass5_0.<ExecuteReaderWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteReaderWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.<Query>d__74`1.MoveNext()
+ClientConnectionId:11cd7259-22ad-4d77-a7cb-3db9714eb2c1
+Error Number:-2,State:0,Class:11
+ 2017-11-01 13:43:39,791 [P14996/D2/T149] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 15 categories. Loading from SQL took 428 ms. Mapping to document took 0 ms. Publish to raven took: 17 ms. total: 445 ms.
+ 2017-11-01 13:46:40,592 [P14996/D2/T155] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:46:40,801 [P14996/D2/T155] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:52:38,039 [P14996/D2/T19] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:52:38,243 [P14996/D2/T19] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 164 ms. Mapping to document took 1 ms. Publish to raven took: 7 ms. total: 172 ms.
+ 2017-11-01 13:52:38,244 [P14996/D2/T19] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:53:35,477 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:53:35,952 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:55:24,534 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:55:24,735 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 13:59:59,382 [P14996/D2/T26] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 13:59:59,501 [P14996/D2/T26] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:01:11,867 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:01:11,950 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:01:22,806 [P14996/D2/T155] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:01:22,848 [P14996/D2/T155] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:01:33,313 [P14996/D2/T8] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:01:33,364 [P14996/D2/T8] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:01:47,937 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:01:47,988 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:02:17,844 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:02:17,891 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:02:43,435 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:02:43,491 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:03:12,848 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:03:12,890 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:03:37,382 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:03:37,426 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:03:46,584 [P14996/D2/T149] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:03:46,682 [P14996/D2/T149] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:03:55,929 [P14996/D2/T158] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:03:55,989 [P14996/D2/T158] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:04:24,745 [P14996/D2/T21] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:04:24,789 [P14996/D2/T21] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:04:57,744 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:04:58,413 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:07:29,384 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:07:29,554 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:07:52,827 [P14996/D2/T8] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:07:53,221 [P14996/D2/T8] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:10:18,792 [P14996/D2/T148] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:10:18,938 [P14996/D2/T148] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:12:51,426 [P14996/D2/T21] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:12:51,506 [P14996/D2/T21] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:13:32,492 [P14996/D2/T146] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:13:32,557 [P14996/D2/T146] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:14:47,712 [P14996/D2/T148] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:14:48,468 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 701 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 708 ms.
+ 2017-11-01 14:14:48,468 [P14996/D2/T148] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:15:18,591 [P14996/D2/T126] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-11-01 14:16:08,521 [P14996/D2/T26] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnection.BeginSqlTransaction(IsolationLevel iso, String transactionName, Boolean shouldReconnect)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at System.Data.SqlClient.SqlConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at StackExchange.Profiling.Data.ProfiledDbConnection.BeginDbTransaction(IsolationLevel isolationLevel) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbConnection.cs:line 206
+   at System.Data.Common.DbConnection.System.Data.IDbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Umbraco.Core.Persistence.Database.BeginTransaction(IsolationLevel isolationLevel)
+   at Umbraco.Core.Scoping.Scope.get_Database()
+   at Umbraco.Core.Persistence.UnitOfWork.ScopeUnitOfWork.get_Database()
+   at Umbraco.Core.Persistence.Repositories.UserRepository.GetByUsername(String username, Boolean includeSecurityData)
+   at Umbraco.Core.Services.UserService.GetByUsername(String username)
+   at Umbraco.Web.Security.Providers.UmbracoMembershipProvider`2.GetUser(String username, Boolean userIsOnline)
+   at UCommerce.Umbraco7.Security.UmbracoUserService.GetUserInternal(String userName)
+   at UCommerce.Umbraco7.Security.UmbracoUserService.GetCurrentUser()
+   at UCommerce.Umbraco7.Security.AuthenticationService.IsAuthenticated()
+   at UCommerce.Presentation.Web.Pages.ProtectedPage..ctor()
+   at UCommerce.Presentation.Web.Pages.EnsuredPresentedPage`2..ctor()
+   at UCommerce.Web.UI.Catalog.EditCategory..ctor()
+   at ASP.umbraco_ucommerce_catalog_editcategory_aspx..ctor() in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\c32f2d9e\110d6592\App_Web_editcategory.aspx.2a84e035.nrk5qvgi.0.cs:line 0
+   at __ASP.FastObjectFactory_app_web_editcategory_aspx_2a84e035_nrk5qvgi.Create_ASP_umbraco_ucommerce_catalog_editcategory_aspx() in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\c32f2d9e\110d6592\App_Web_editcategory.aspx.2a84e035.nrk5qvgi.1.cs:line 0
+   at System.Web.Compilation.BuildResultCompiledType.CreateInstance()
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ClientConnectionId:03a86cf0-a6b4-44e4-ad6c-407065b089f7
+Error Number:-2,State:0,Class:11
+ 2017-11-01 14:16:12,211 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:16:12,659 [P14996/D2/T145] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 392 ms. Mapping to document took 4 ms. Publish to raven took: 6 ms. total: 402 ms.
+ 2017-11-01 14:16:12,660 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:16:43,002 [P14996/D2/T155] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnection.BeginSqlTransaction(IsolationLevel iso, String transactionName, Boolean shouldReconnect)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at System.Data.SqlClient.SqlConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at StackExchange.Profiling.Data.ProfiledDbConnection.BeginDbTransaction(IsolationLevel isolationLevel) in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbConnection.cs:line 206
+   at System.Data.Common.DbConnection.System.Data.IDbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Umbraco.Core.Persistence.Database.BeginTransaction(IsolationLevel isolationLevel)
+   at Umbraco.Core.Scoping.Scope.get_Database()
+   at Umbraco.Core.Persistence.UnitOfWork.ScopeUnitOfWork.get_Database()
+   at Umbraco.Core.Persistence.Repositories.UserRepository.GetByUsername(String username, Boolean includeSecurityData)
+   at Umbraco.Core.Services.UserService.GetByUsername(String username)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at UCommerce.Umbraco7.Umbraco77Compatability.UmbracoUserExtensions.TryGetUserTypeNameForUmbraco77(User umbracoUser)
+   at UCommerce.Umbraco7.Umbraco77Compatability.UmbracoUserExtensions.GetUserTypeName(User umbracoUser)
+   at UCommerce.Umbraco7.Security.UmbracoUserService.MapUser(User umbracoUser)
+   at UCommerce.Umbraco7.Security.UmbracoUserService.GetUser(String userName)
+   at UCommerce.Umbraco7.Security.UmbracoUserService.GetCurrentUser()
+   at UCommerce.Umbraco7.Security.AuthenticationService.IsAuthenticated()
+   at UCommerce.Presentation.Web.Pages.ProtectedPage..ctor()
+   at UCommerce.Presentation.Web.Pages.EnsuredPresentedPage`2..ctor()
+   at UCommerce.Web.UI.Catalog.EditCategory..ctor()
+   at ASP.umbraco_ucommerce_catalog_editcategory_aspx..ctor() in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\c32f2d9e\110d6592\App_Web_editcategory.aspx.2a84e035.nrk5qvgi.0.cs:line 0
+   at __ASP.FastObjectFactory_app_web_editcategory_aspx_2a84e035_nrk5qvgi.Create_ASP_umbraco_ucommerce_catalog_editcategory_aspx() in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\c32f2d9e\110d6592\App_Web_editcategory.aspx.2a84e035.nrk5qvgi.1.cs:line 0
+   at System.Web.Compilation.BuildResultCompiledType.CreateInstance()
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-11-01 14:16:56,606 [P14996/D2/T122] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at StackExchange.Profiling.Data.ProfiledDbTransaction.Commit() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbTransaction.cs:line 66
+   at Umbraco.Core.Persistence.Database.CleanupTransaction()
+   at Umbraco.Core.Scoping.Scope.DisposeLastScope()
+   at Umbraco.Core.Scoping.Scope.Dispose()
+   at Umbraco.Core.Persistence.UnitOfWork.ScopeUnitOfWork.DisposeResources()
+   at Umbraco.Core.DisposableObject.Dispose(Boolean disposing)
+   at Umbraco.Core.DisposableObject.Dispose()
+   at Umbraco.Core.Services.UserService.GetByUsername(String username)
+   at Umbraco.Web.Security.Providers.UmbracoMembershipProvider`2.GetUser(String username, Boolean userIsOnline)
+   at UCommerce.Umbraco7.Security.UmbracoUserService.GetUserInternal(String userName)
+   at UCommerce.Umbraco7.Security.UmbracoUserService.GetUser(String userName)
+   at UCommerce.Umbraco7.Security.UmbracoUserService.GetCurrentUser()
+   at UCommerce.Umbraco7.Security.AuthenticationService.IsAuthenticated()
+   at UCommerce.Presentation.Web.Pages.ProtectedPage..ctor()
+   at UCommerce.Presentation.Web.Pages.EnsuredPresentedPage`2..ctor()
+   at UCommerce.Web.UI.Catalog.EditCategory..ctor()
+   at ASP.umbraco_ucommerce_catalog_editcategory_aspx..ctor() in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\c32f2d9e\110d6592\App_Web_editcategory.aspx.2a84e035.nrk5qvgi.0.cs:line 0
+   at __ASP.FastObjectFactory_app_web_editcategory_aspx_2a84e035_nrk5qvgi.Create_ASP_umbraco_ucommerce_catalog_editcategory_aspx() in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\c32f2d9e\110d6592\App_Web_editcategory.aspx.2a84e035.nrk5qvgi.1.cs:line 0
+   at System.Web.Compilation.BuildResultCompiledType.CreateInstance()
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ClientConnectionId:164eba44-f483-43da-9315-f9dae06ff460
+Error Number:-2,State:0,Class:11
+ 2017-11-01 14:17:07,753 [P14996/D2/T21] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:17:08,435 [P14996/D2/T21] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 316 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 322 ms.
+ 2017-11-01 14:17:08,435 [P14996/D2/T21] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:17:23,467 [P14996/D2/T124] ERROR System.Object - The catalog 'associated with categoryId 69' does not exist.
+System.ArgumentException: The catalog 'associated with categoryId 69' does not exist.
+   at UCommerce.Catalog.CatalogLibraryInternal.GetCategory(Int32 categoryId)
+   at Castle.Proxies.CatalogLibraryInternalProxy.GetCategory_callback_1(Int32 categoryId)
+   at Castle.Proxies.Invocations.CatalogLibraryInternal_GetCategory_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at UCommerce.Infrastructure.Interceptor.ExceptionLoggingInterceptor.Intercept(IInvocation invocation)
+ 2017-11-01 14:17:28,009 [P14996/D2/T26] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at StackExchange.Profiling.Data.ProfiledDbTransaction.Commit() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbTransaction.cs:line 66
+   at Umbraco.Core.Persistence.Database.CleanupTransaction()
+   at Umbraco.Core.Scoping.Scope.DisposeLastScope()
+   at Umbraco.Core.Scoping.Scope.Dispose()
+   at Umbraco.Core.Persistence.UnitOfWork.ScopeUnitOfWork.DisposeResources()
+   at Umbraco.Core.DisposableObject.Dispose(Boolean disposing)
+   at Umbraco.Core.DisposableObject.Dispose()
+   at Umbraco.Core.Services.MediaService.GetById(Int32 id)
+   at UCommerce.Umbraco7.Content.UmbracoImageService.GetImage(String id)
+   at UCommerce.Presentation.Web.Controls.UCommerceImagePicker.GetContentName(String imageId)
+   at UCommerce.Presentation.Web.Controls.UCommerceImagePicker..ctor(String imageId, String fieldId)
+   at UCommerce.Presentation.Web.Controls.Factories.ImagePickerControlFactory.GetControl(IProperty property)
+   at UCommerce.Presentation.Web.Controls.PropertyControlFactory.GetControl(IProperty property)
+   at UCommerce.Presentation.Web.Controls.Extensions.PropertyControlFactoryExtensions.GetControl(IPropertyControlFactory propertyControlFactory, DataTypeDefinition dataTypeDefinition, String displayName, String value)
+   at UCommerce.Web.UI.Catalog.EditCategoryMedia.Update(String imageMediaId)
+   at UCommerce.Web.UI.Catalog.EditCategoryMedia.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:081f14c2-a329-484c-b192-cf44ac2b26f4
+Error Number:-2,State:0,Class:11
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_ucommerce_catalog_editcategory_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\c32f2d9e\110d6592\App_Web_editcategory.aspx.2a84e035.nrk5qvgi.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-11-01 14:19:13,955 [P14996/D2/T125] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:19:14,539 [P14996/D2/T125] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 535 ms. Mapping to document took 0 ms. Publish to raven took: 12 ms. total: 547 ms.
+ 2017-11-01 14:19:14,541 [P14996/D2/T125] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:19:31,936 [P14996/D2/T149] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:19:32,556 [P14996/D2/T149] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 284 ms. Mapping to document took 0 ms. Publish to raven took: 9 ms. total: 293 ms.
+ 2017-11-01 14:19:32,556 [P14996/D2/T149] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:19:45,691 [P14996/D2/T19] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:19:45,888 [P14996/D2/T19] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 156 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 163 ms.
+ 2017-11-01 14:19:45,889 [P14996/D2/T19] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:20:43,454 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:20:43,673 [P14996/D2/T145] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 179 ms. Mapping to document took 1 ms. Publish to raven took: 5 ms. total: 185 ms.
+ 2017-11-01 14:20:43,673 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:20:56,018 [P14996/D2/T155] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:20:56,163 [P14996/D2/T155] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 104 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 110 ms.
+ 2017-11-01 14:20:56,164 [P14996/D2/T155] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:21:13,652 [P14996/D2/T146] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:21:13,809 [P14996/D2/T146] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 108 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 115 ms.
+ 2017-11-01 14:21:13,810 [P14996/D2/T146] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:21:31,374 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:21:31,492 [P14996/D2/T13] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 77 ms. Mapping to document took 1 ms. Publish to raven took: 5 ms. total: 83 ms.
+ 2017-11-01 14:21:31,492 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:21:50,435 [P14996/D2/T149] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:21:50,603 [P14996/D2/T149] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 128 ms. Mapping to document took 1 ms. Publish to raven took: 5 ms. total: 134 ms.
+ 2017-11-01 14:21:50,603 [P14996/D2/T149] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:22:05,175 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:22:05,334 [P14996/D2/T25] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 106 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 113 ms.
+ 2017-11-01 14:22:05,334 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:23:19,545 [P14996/D2/T158] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:23:19,701 [P14996/D2/T158] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 16 categories. Loading from SQL took 115 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 122 ms.
+ 2017-11-01 14:23:19,701 [P14996/D2/T158] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:31:03,503 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:31:03,680 [P14996/D2/T13] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 17 categories. Loading from SQL took 133 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 140 ms.
+ 2017-11-01 14:31:03,680 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:31:34,245 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:31:34,756 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:34:14,205 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:34:14,378 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:35:04,080 [P14996/D2/T19] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:35:04,551 [P14996/D2/T19] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:38:15,432 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:38:15,657 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:38:51,976 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:38:52,493 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:41:29,914 [P14996/D2/T146] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:41:30,043 [P14996/D2/T146] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:42:02,227 [P14996/D2/T155] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 17 categories. Loading from SQL took 140 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 146 ms.
+ 2017-11-01 14:43:27,183 [P14996/D2/T155] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:43:27,301 [P14996/D2/T155] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 18 categories. Loading from SQL took 78 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 85 ms.
+ 2017-11-01 14:43:27,304 [P14996/D2/T155] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:49:25,327 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:49:25,822 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 14:51:44,248 [P14996/D2/T19] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 14:51:44,391 [P14996/D2/T19] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:00:24,764 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:00:25,267 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:03:05,938 [P14996/D2/T117] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:03:06,097 [P14996/D2/T117] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:03:35,190 [P14996/D2/T117] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:03:35,575 [P14996/D2/T117] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:06:32,420 [P14996/D2/T8] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:06:32,597 [P14996/D2/T8] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:06:43,156 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:06:43,324 [P14996/D2/T126] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 18 categories. Loading from SQL took 129 ms. Mapping to document took 0 ms. Publish to raven took: 5 ms. total: 134 ms.
+ 2017-11-01 15:06:43,324 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:15:18,613 [P14996/D2/T25] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-11-01 15:26:00,476 [P14996/D2/T116] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-11-01 15:26:06,476 [P14996/D2/T115] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: demostore@ucommerce.se, IP Address: ::1
+ 2017-11-01 15:32:11,067 [P14996/D2/T26] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username demostore@ucommerce.se from IP address ::1
+ 2017-11-01 15:32:18,551 [P14996/D2/T126] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username demostore@ucommerce.se from IP address ::1
+ 2017-11-01 15:32:25,985 [P14996/D2/T20] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username demostore@ucommerce.se from IP address ::1
+ 2017-11-01 15:32:25,985 [P14996/D2/T20] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: demostore@ucommerce.se logged in from IP address ::1
+ 2017-11-01 15:33:34,289 [P14996/D2/T148] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:33:34,480 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 19 categories. Loading from SQL took 110 ms. Mapping to document took 0 ms. Publish to raven took: 9 ms. total: 119 ms.
+ 2017-11-01 15:33:34,490 [P14996/D2/T148] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:42:00,613 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:42:01,073 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:44:21,040 [P14996/D2/T125] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:44:21,182 [P14996/D2/T125] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:47:40,543 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:47:40,665 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:48:34,266 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:48:34,747 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:51:22,093 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:51:22,536 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:51:41,746 [P14996/D2/T19] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:51:41,909 [P14996/D2/T19] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 19 categories. Loading from SQL took 123 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 130 ms.
+ 2017-11-01 15:51:41,909 [P14996/D2/T19] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:54:29,459 [P14996/D2/T148] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:54:29,576 [P14996/D2/T148] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 19 categories. Loading from SQL took 75 ms. Mapping to document took 1 ms. Publish to raven took: 9 ms. total: 85 ms.
+ 2017-11-01 15:54:29,576 [P14996/D2/T148] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:54:46,528 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:54:46,652 [P14996/D2/T25] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 19 categories. Loading from SQL took 80 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 86 ms.
+ 2017-11-01 15:54:46,652 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:55:06,520 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:55:06,636 [P14996/D2/T126] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 19 categories. Loading from SQL took 74 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 80 ms.
+ 2017-11-01 15:55:06,636 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:55:24,191 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:55:24,343 [P14996/D2/T116] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 19 categories. Loading from SQL took 103 ms. Mapping to document took 1 ms. Publish to raven took: 7 ms. total: 111 ms.
+ 2017-11-01 15:55:24,343 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:55:45,415 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:55:45,527 [P14996/D2/T115] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 19 categories. Loading from SQL took 72 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 78 ms.
+ 2017-11-01 15:55:45,528 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:56:00,823 [P14996/D2/T117] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:56:00,937 [P14996/D2/T117] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 19 categories. Loading from SQL took 75 ms. Mapping to document took 0 ms. Publish to raven took: 7 ms. total: 82 ms.
+ 2017-11-01 15:56:00,939 [P14996/D2/T117] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 15:56:05,452 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 15:56:05,567 [P14996/D2/T115] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 19 categories. Loading from SQL took 75 ms. Mapping to document took 1 ms. Publish to raven took: 5 ms. total: 81 ms.
+ 2017-11-01 15:56:05,568 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:01:53,855 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:01:54,010 [P14996/D2/T20] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 20 categories. Loading from SQL took 107 ms. Mapping to document took 1 ms. Publish to raven took: 8 ms. total: 116 ms.
+ 2017-11-01 16:01:54,011 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:05:18,638 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:05:19,090 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:07:53,352 [P14996/D2/T158] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:07:53,509 [P14996/D2/T158] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:08:29,804 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:08:30,191 [P14996/D2/T115] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:11:17,828 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:11:18,298 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:12:57,277 [P14996/D2/T117] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:12:57,362 [P14996/D2/T117] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:13:09,795 [P14996/D2/T150] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:13:09,926 [P14996/D2/T150] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 20 categories. Loading from SQL took 85 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 91 ms.
+ 2017-11-01 16:13:09,927 [P14996/D2/T150] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:14:52,546 [P14996/D2/T136] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:14:52,657 [P14996/D2/T136] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 20 categories. Loading from SQL took 72 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 78 ms.
+ 2017-11-01 16:14:52,657 [P14996/D2/T136] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:15:18,636 [P14996/D2/T136] INFO  Rhino.Licensing.AbstractLicenseValidator - License expiration date is 09/07/2014 00:34:00
+ 2017-11-01 16:15:54,685 [P14996/D2/T132] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:15:54,791 [P14996/D2/T132] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 21 categories. Loading from SQL took 67 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 73 ms.
+ 2017-11-01 16:15:54,791 [P14996/D2/T132] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:16:07,200 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:16:07,302 [P14996/D2/T116] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 21 categories. Loading from SQL took 66 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 72 ms.
+ 2017-11-01 16:16:07,303 [P14996/D2/T116] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:18:29,188 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:18:29,648 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:24:19,724 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:24:19,886 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:24:27,926 [P14996/D2/T136] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:24:27,975 [P14996/D2/T136] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:25:02,476 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:25:02,838 [P14996/D2/T126] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:27:31,533 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:27:31,691 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:27:59,002 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:27:59,400 [P14996/D2/T20] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:30:54,137 [P14996/D2/T136] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:30:54,310 [P14996/D2/T136] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:31:01,672 [P14996/D2/T135] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:31:01,780 [P14996/D2/T135] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 21 categories. Loading from SQL took 69 ms. Mapping to document took 1 ms. Publish to raven took: 7 ms. total: 77 ms.
+ 2017-11-01 16:31:01,781 [P14996/D2/T135] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:33:33,131 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:33:33,245 [P14996/D2/T145] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 22 categories. Loading from SQL took 76 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 82 ms.
+ 2017-11-01 16:33:33,245 [P14996/D2/T145] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:33:44,454 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:33:44,572 [P14996/D2/T25] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 22 categories. Loading from SQL took 72 ms. Mapping to document took 0 ms. Publish to raven took: 10 ms. total: 82 ms.
+ 2017-11-01 16:33:44,573 [P14996/D2/T25] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:37:37,085 [P14996/D2/T149] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:37:37,530 [P14996/D2/T149] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:42:23,613 [P14996/D2/T8] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:42:23,746 [P14996/D2/T8] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:42:54,748 [P14996/D2/T158] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:42:55,199 [P14996/D2/T158] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:45:22,209 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:45:22,360 [P14996/D2/T122] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:45:44,491 [P14996/D2/T149] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:45:44,842 [P14996/D2/T149] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:48:06,486 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:48:06,662 [P14996/D2/T13] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:48:18,832 [P14996/D2/T132] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Starting retryable action.
+ 2017-11-01 16:48:18,945 [P14996/D2/T132] INFO  UCommerce.Search.Indexers.RavenCatalogIndexer - Index catalog(24) with 22 categories. Loading from SQL took 73 ms. Mapping to document took 0 ms. Publish to raven took: 6 ms. total: 79 ms.
+ 2017-11-01 16:48:18,945 [P14996/D2/T132] INFO  UCommerce.Infrastructure.Threading.RetryableAction - Retryable action finished on iteration number 1
+ 2017-11-01 16:51:01,501 [P14996/D2/T117] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-31 16:51:01
