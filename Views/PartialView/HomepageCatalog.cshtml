@@ -7,6 +7,8 @@
     <div class="span12">
         @foreach (var product in Model.Products)
         {
+            if (product.Name == "Buketten Höstglädje")
+            {
             <div class="product col-sm-4 col-md-4 col-xs-2">
                 <div class="product-image">
                     <a href="@product.Url"><img src="@product.ThumbnailImageUrl" /></a>
@@ -28,5 +30,6 @@
                     <a href="@product.Url" class="btn btn-default">View more <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></a>
                 </p>
             </div>}
+        }
     </div>
 </div>
