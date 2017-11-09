@@ -152,8 +152,46 @@
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
+    <Reference Include="paypal_base, Version=5.6.64.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\uCommerce.Core.7.8.1.17290\lib\net45\paypal_base.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Semver, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\semver.1.1.2\lib\net451\Semver.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack, Version=3.9.55.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\ServiceStack.3.9.55\lib\net35\ServiceStack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ServiceStack.Common, Version=3.9.55.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\ServiceStack.Common.3.9.55\lib\net35\ServiceStack.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces, Version=3.9.55.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\ServiceStack.Common.3.9.55\lib\net35\ServiceStack.Interfaces.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite, Version=3.9.55.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ServiceStack.OrmLite.SqlServer.3.9.55\lib\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite.SqlServer, Version=3.9.55.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ServiceStack.OrmLite.SqlServer.3.9.55\lib\ServiceStack.OrmLite.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis, Version=3.9.55.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ServiceStack.Redis.3.9.55\lib\net35\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.ServiceInterface, Version=3.9.55.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\ServiceStack.3.9.55\lib\net35\ServiceStack.ServiceInterface.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ServiceStack.Text, Version=3.9.55.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\ServiceStack.Text.3.9.55\lib\net35\ServiceStack.Text.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="SQLCE4Umbraco, Version=1.0.6499.16608, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoCms.Core.7.7.3\lib\net45\SQLCE4Umbraco.dll</HintPath>
@@ -221,9 +259,49 @@
     <Reference Include="TidyNet, Version=1.0.0.0, Culture=neutral">
       <HintPath>..\packages\UmbracoCms.Core.7.7.3\lib\net45\TidyNet.dll</HintPath>
     </Reference>
+    <Reference Include="UCommerce, Version=7.8.1.17290, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\uCommerce.Core.7.8.1.17290\lib\net45\UCommerce.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UCommerce.Admin, Version=7.8.1.17290, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\uCommerce.Core.7.8.1.17290\lib\net45\UCommerce.Admin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UCommerce.Infrastructure, Version=7.8.1.17290, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\uCommerce.Core.7.8.1.17290\lib\net45\UCommerce.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UCommerce.Installer, Version=7.8.1.17290, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\uCommerce.Core.7.8.1.17290\lib\net45\UCommerce.Installer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UCommerce.Pipelines, Version=7.8.1.17290, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\uCommerce.Core.7.8.1.17290\lib\net45\UCommerce.Pipelines.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UCommerce.Presentation, Version=7.8.1.17290, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\uCommerce.Core.7.8.1.17290\lib\net45\UCommerce.Presentation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="UCommerce.RazorStore, Version=5.0.2.17012, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Bin\UCommerce.RazorStore.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.Transactions.Payments, Version=7.8.1.17290, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\uCommerce.Core.7.8.1.17290\lib\net45\UCommerce.Transactions.Payments.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UCommerce.Web.Api, Version=7.8.1.17290, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\uCommerce.Core.7.8.1.17290\lib\net45\UCommerce.Web.Api.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="umbraco, Version=1.0.6499.16609, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoCms.Core.7.7.3\lib\net45\umbraco.dll</HintPath>
@@ -877,6 +955,7 @@
     <Content Include="Views\MacroPartials\uCommerce Mini Basket.cshtml" />
     <Content Include="Views\MacroPartials\uCommerce Voucher.cshtml" />
     <Content Include="Views\MacroPartials\uCommerceProductReviews.cshtml" />
+    <Content Include="Views\PartialView\FlowerList.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -890,7 +969,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\HomeController.cs" />
+    <Compile Include="Controller\FlowerListSurfaceController.cs" />
+    <Compile Include="Models\FlowerListViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
