@@ -7449,3 +7449,51 @@ UCommerce.RazorStore.Controllers.HomeController
  2017-11-09 13:30:46,109 [P12708/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
  2017-11-09 13:30:46,109 [P12708/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
  2017-11-09 13:30:46,116 [P12708/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 6ms)
+ 2017-11-09 13:37:27,544 [P18528/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.7.3 application starting on 149999FRST
+ 2017-11-09 13:37:27,571 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-09 13:37:27,588 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 17ms)
+ 2017-11-09 13:37:27,814 [P18528/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-11-09 13:37:27,816 [P18528/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-11-09 13:37:27,819 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-09 13:37:28,262 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 442ms)
+ 2017-11-09 13:37:28,262 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-09 13:37:28,276 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 13ms)
+ 2017-11-09 13:37:28,305 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-09 13:37:28,306 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-09 13:37:28,306 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-09 13:37:28,318 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 11ms)
+ 2017-11-09 13:37:28,319 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-09 13:37:28,319 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-09 13:37:28,319 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-09 13:37:28,329 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 9ms)
+ 2017-11-09 13:37:28,349 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-09 13:37:28,349 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-09 13:37:28,349 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-11-09 13:37:28,359 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 9ms)
+ 2017-11-09 13:37:28,360 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-09 13:37:28,361 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-09 13:37:28,361 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-09 13:37:28,372 [P18528/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 10ms)
+ 2017-11-09 13:37:30,335 [P18528/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-09 13:37:30,865 [P18528/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-09 13:37:31,202 [P18528/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-09 13:37:31,203 [P18528/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-09 13:37:31,450 [P18528/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3978ms)
+ 2017-11-09 13:37:31,658 [P18528/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:55147/umbraco (UmbracoModule request)
+ 2017-11-09 13:37:34,233 [P18528/D2/T6] INFO  UCommerce.Installer.RuntimeVersionChecker - Version number reported from database: '7.8.1.17290'
+ 2017-11-09 13:37:34,234 [P18528/D2/T6] INFO  UCommerce.Umbraco7.Installer.Installer - Updating uCommerce was not needed. Current version: 7.8.1.17290. Determining took: 264 ms.
+ 2017-11-09 13:37:34,674 [P18528/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2017-11-09 13:37:34,677 [P18528/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-09 13:37:35,763 [P18528/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-09 13:37:41,336 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-09 13:37:41,337 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-09 13:37:41,337 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-09 13:37:41,355 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 18ms)
+ 2017-11-09 13:37:48,994 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-09 13:37:48,994 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-09 13:37:48,994 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-09 13:37:49,010 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 16ms)
+ 2017-11-09 13:37:49,406 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-11-09 13:37:49,406 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-11-09 13:37:49,406 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-11-09 13:37:49,416 [P18528/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 9ms)
