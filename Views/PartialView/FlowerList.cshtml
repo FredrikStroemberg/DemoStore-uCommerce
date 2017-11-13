@@ -1,26 +1,43 @@
-﻿@model IEnumerable<DemoStore_uCommerce.Models.FlowerListViewModel>
+﻿@model UCommerce.RazorStore.Models.ProductsViewModel
 
+@{
+    Layout = null;
+}
+@using (Html.BeginUmbracoForm("Index", "FlowerListSurface", FormMethod.Post))
+{
+<div class="row" id="homepage-catalog">
+    <div class="span12">
+        @foreach (var product in Model.Products)
+        {
+            <div class="product col-sm-4 col-md-4 col-xs-2">
+                <div class="product-image">
+                    <a href="@product.Url"><img src="@product.ThumbnailImageUrl" /></a>
+                </div>
+                <p class="item-name">
+                    <a href="@product.Url">@product.Name</a>
+                </p>
+                @if (product.PriceCalculation.ListPrice != null)
+                {
+                    <p class="item-price">
+                        @product.PriceCalculation.YourPrice.Amount
+                    </p>
+                }
+                else
+                {
+                    <p class="item-price"></p>
+                }
+                <p class="btn-group view-details">
+                    <a href="@product.Url" class="btn btn-default">View more <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></a>
+                </p>
+            </div>
+        }
+    </div>
+</div>
+}
 <div class"">
     <h5>Fredrik Tipsar:</h5>
-    <p>Fantastiska farsdagsblommor - lagom till fars dag..</p>
+    <p>Dessa tider när hösten är som mörkast är det alltid trevligt att ge bort en färgstark blomma i födelsedagspresent. Lita på mig - kika in vår födelsedagskategori!</p>
     <p class="btn-group view-details">
-        <a href="/demo-store/fars-dag/c-24/c-1084" class="btn btn-default">Ta Mig Dit <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></a>
+        <a href="/demo-store/foedelsedag/c-24/c-1083" class="btn btn-default">Ta Mig Dit <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></a>
     </p>
 </div>
-<table>
-    @using (Html.BeginUmbracoForm("Index", "FlowerListSurface", FormMethod.Post))
-    {
-
-        foreach (var flowers in Model)
-        {
-            <tr>
-                <td>Produkt: </td>
-                <td>@flowers.Description</td>
-            </tr>
-            <tr>
-                <td>Pris: </td>
-                <td>@flowers.MaxPrice</td>
-            </tr>
-        }
-    }
-</table>

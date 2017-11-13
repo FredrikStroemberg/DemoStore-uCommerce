@@ -741,7 +741,6 @@
   <ItemGroup>
     <Folder Include="App_Data\NuGetBackup\20171024-102056\Umbraco\" />
     <Folder Include="App_Data\NuGetBackup\20171024-102056\Umbraco_Client\" />
-    <Folder Include="Views\HomepageCatalog\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

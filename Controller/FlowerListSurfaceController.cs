@@ -1,11 +1,18 @@
 ﻿using DemoStore_uCommerce.Models;
+using ImageProcessor.Web.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
+using UCommerce.Api;
+using UCommerce.EntitiesV2;
+using UCommerce.Infrastructure;
+using UCommerce.RazorStore.Controllers;
 using UCommerce.RazorStore.Models;
+using UCommerce.Runtime;
+using UCommerce.Search.Facets;
 using Umbraco.Web.Models;
 using Umbraco.Web.Mvc;
 
@@ -15,10 +22,37 @@ namespace DemoStore_uCommerce.Controller
     {
         public ActionResult Index()
         {
-            return PartialView("/Views/PartialView/FlowerList.cshtml", GetFlowers());
+            //  var products = SiteContext.Current.CatalogContext.CurrentCatalog.Categories.SelectMany(c => c.Products.Where(p => p.ProductProperties.Any(pp => pp.ProductDefinitionField.Name == "ShowOnHomepage" && Convert.ToBoolean(pp.Value))));
+            // var products = SiteContext.Current.CatalogContext.CurrentCatalog.Categories.SelectMany(c => c.Products.Where(p => p.ProductProperties.Any(pp => pp.Product.ProductDefinition.Name == "Jul" && Convert.ToBoolean(pp.Value))));
+
+            var products = SiteContext.Current.CatalogContext.CurrentCatalog.Categories.SelectMany(c => c.Products.Where(p => p.ProductDefinition.Name == "Jul"));
+
+            ProductsViewModel productsViewModel = new ProductsViewModel();
+
+            foreach (var p in products)
+            {
+                var id = p.ThumbnailImageMediaId;
+                var content = Umbraco.Media(id);
+                var imagerUrl = content.Url;
+
+                productsViewModel.Products.Add(new ProductViewModel()
+                {
+                    Name = p.Name,
+                    PriceCalculation = CatalogLibrary.CalculatePrice(p),
+                    Url = CatalogLibrary.GetNiceUrlForProduct(p),
+                    Sku = p.Sku,
+                    IsVariant = p.IsVariant,
+                    VariantSku = p.VariantSku,
+                    ThumbnailImageUrl = imagerUrl
+                });
+            }
+            return PartialView("/Views/PartialView/FlowerList.cshtml", productsViewModel);
         }
         public List<FlowerListViewModel> GetFlowers()
         {
+            var currentCategory = SiteContext.Current.CatalogContext.CurrentCatalog.Categories.Where(c => c.Name == "Jul").First();
+            var products = MapProductsInCategories(currentCategory);
+
             var flowers = new List<FlowerListViewModel>();
             flowers.Add(new FlowerListViewModel
             {
@@ -78,6 +112,43 @@ namespace DemoStore_uCommerce.Controller
             });
 
             return flowers;
+        }
+
+        private IList<ProductViewModel> MapProductsInCategories(Category category)
+        {
+            IList<Facet> facetsForQuerying = System.Web.HttpContext.Current.Request.QueryString.ToFacets();
+            var productsInCategory = new List<ProductViewModel>();
+
+            foreach (var subcategory in category.Categories)
+            {
+                productsInCategory.AddRange(MapProductsInCategories(subcategory));
+            }
+
+            productsInCategory.AddRange(MapProducts(category.Products));
+
+            return productsInCategory;
+        }
+
+        private IList<ProductViewModel> MapProducts(IEnumerable<Product> productsInCategory)
+        {
+            IList<ProductViewModel> productViews = new List<ProductViewModel>();
+
+            foreach (var product in productsInCategory)
+            {
+                var id = product.ThumbnailImageMediaId;
+                var content = Umbraco.Media(id);
+                var imagerUrl = content.Url;
+                var productViewModel = new ProductViewModel
+                {
+                    Sku = product.Sku,
+                    Name = product.Name,
+                    ThumbnailImageUrl = imagerUrl
+                };
+                
+                productViews.Add(productViewModel);
+            }
+
+            return productViews;
         }
     }
 }
