@@ -261,3 +261,7 @@ ModelManifest.xml
 # ImageProcessor DiskCache 
 **/App_Data/cache/
 
+**/App_Data/RavenDatabases/
+**/App_Data/Models/
+
+**/Raven/
